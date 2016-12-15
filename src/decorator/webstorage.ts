@@ -37,7 +37,7 @@ export let WebStorage = (webStorage: Storage, key?: string, type?: LocalStorageT
                     };
                 }
 
-                return WebStorageUtility.get(webStorage, key);
+                return value;
             },
             set: function(value: any) {
                 if (!cache[key]) {

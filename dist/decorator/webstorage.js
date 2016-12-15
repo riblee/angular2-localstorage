@@ -29,7 +29,7 @@ exports.WebStorage = function (webStorage, key, type) {
                         return ret;
                     };
                 }
-                return webstorage_utiltiy_1.WebStorageUtility.get(webStorage, key);
+                return value;
             },
             set: function (value) {
                 if (!cache[key]) {
